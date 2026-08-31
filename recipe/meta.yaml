@@ -1,13 +1,13 @@
 {% set name = "pyshortcuts" %}
-{% set version = "1.9.8" %}
+{% set version = "1.9.10" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyshortcuts-{{ version }}.tar.gz
-  sha256: 915e26214e301d4bf4c5bb07c1151c397947a2bb65b038450f8bd26feda8f653
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pyshortcuts-{{ version }}.tar.gz
+  sha256: ab5c12c16277882b282bc07fe085237002ec787f3c043a4ac5c46a6cd3dbde26
 
 build:
   number: 0
